@@ -8,9 +8,16 @@ This repository builds a [JupyterHub](https://jupyter.org/hub) environment with 
 
 ### Pull your image to run a local JupyterLab session
 
+You can run JupyterLab with this conda environment on any machine with [Docker Installed](https://docs.docker.com/get-docker/)
+
+*set the $HOMEDIR environment variable to mount a local directory for JupyterLab to access*
+
 ```bash
+git clone https://github.com/Denolle-Lab/seisbench-jupyter
+cd seisbench-jupyter
+export HOMEDIR=/tmp/data
 docker compose up
-# Do things in JupyterLab w/ files in local directory
+# NOTE: ctrl-c will 'stop' the container, to fully shut down:
 docker compose down
 ```
 

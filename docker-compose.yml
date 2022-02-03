@@ -7,4 +7,4 @@ services:
       - "8888:8888"
     command: "jupyter lab --ip 0.0.0.0 --no-browser"
     volumes:
-      - ${PWD}:/home/jovyan
+      - ${HOMEDIR}:/home/jovyan

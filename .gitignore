@@ -1,3 +1,8 @@
+# Created with `docker compose up` in this directory
+.bash_history
+.jupyter-server-log.txt
+.jupyter/
+.local/
 .DS_Store
 
 # Byte-compiled / optimized / DLL files

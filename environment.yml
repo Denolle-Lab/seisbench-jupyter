@@ -1,9 +1,28 @@
-name: hackweek
+name: seisbench
 channels:
   - conda-forge
 dependencies:
+  - python=3.9
+  - black
+  - cartopy
+  - dask
+  - geopandas
+  - h5py
+  - hvplot
+  - ipykernel
   - ipyleaflet
-  - jupyter-book=0.10
-  - jupyterlab=3
-  - jupyter-resource-usage
-  - sphinxcontrib-bibtex=2
+  - isort
+  - jupyterlab_code_formatter  
+  # https://github.com/obspy/obspy/issues/2912
+  - numpy==1.21
+  - obspy
+  - obsplus
+  - pip
+  - pyarrow
+  # NOTE: 'pytorch' will by default install huge GPU libraries
+  - pytorch=1.10.0=cpu_py39hc5866cc_0
+  - scipy
+  - requests
+  - zarr
+  - pip:
+    - seisbench

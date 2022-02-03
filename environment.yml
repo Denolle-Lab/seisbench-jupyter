@@ -22,6 +22,7 @@ dependencies:
   # NOTE: 'pytorch' will by default install huge GPU libraries
   - pytorch=1.10.0=cpu_py39hc5866cc_0
   - scipy
+  - scikit-learn
   - requests
   - zarr
   - pip:

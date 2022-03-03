@@ -19,7 +19,7 @@ dependencies:
   - obsplus
   - pip
   - pyarrow
-  - pytorch=1.10
+  - pytorch-gpu=1.10
   - scipy
   - requests
   - zarr
